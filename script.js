@@ -22,7 +22,7 @@ function makeAIMove() {
   console.log("Current FEN: " + currentFEN);
 
   // Define the API endpoint and parameters
-  const apiUrl = `https://stockfish.online/api/s/v2.php?fen=${encodeURIComponent(currentFEN)}&depth=10`; // You can adjust the depth as needed
+  const apiUrl = `https://stockfish.online/api/s/v2.php?fen=${encodeURIComponent(currentFEN)}&depth=15`; // You can adjust the depth as needed
 
   // Make the GET request to the Stockfish API
   $.ajax({
